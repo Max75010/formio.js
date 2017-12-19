@@ -34,6 +34,40 @@ module.exports = {
         cancel: 'Cancel',
         submit: 'Submit Form'
       }
+    },
+    fr: {
+      translation: {
+          complete: 'Formulaire soumis',
+          error: 'Veuillez corriger les erreurs suivantes avant de renvoyer le formulaire.',
+          required: 'le champ {{field}} est requis',
+          pattern: 'le champ {{field}} ne correspond pas au format {{pattern}}',
+          minLength: '{{field}} doit être plus long que {{length}} caractères.',
+          maxLength: '{{field}} doit être moins long que {{length}} caractères.',
+          min: '{{field}} ne peut être inférieur à {{min}}.',
+          max: '{{field}} ne peut être supérieur à {{max}}.',
+          invalid_email: '{{field}} doit être un email valide.',
+          invalid_regex: '{{field}} ne correspond pas au format {{regex}}.',
+          invalid_date: '{{field}} n\'est pas une date valide.',
+          month: 'Mois',
+          day: 'Jour',
+          year: 'Année',
+          january: 'Janvier',
+          february: 'Février',
+          march: 'Mars',
+          april: 'Avril',
+          may: 'Mai',
+          june: 'Juin',
+          july: 'Juillet',
+          august: 'Aout',
+          september: 'Septembre',
+          october: 'Octobre',
+          november: 'Novembre',
+          december: 'Décembre',
+          next: 'Suivant',
+          previous: 'Précédent',
+          cancel: 'Annuler',
+          submit: 'Envoyer'
+      }
     }
   }
 };
